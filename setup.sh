@@ -24,3 +24,7 @@ smbpasswd -a nas
 chmod 774 /var/www/owncloud/data/nas/files
 rm /etc/samba/smb.conf
 cp ./smb.conf /etc/samba
+service samba restart
+
+echo "RAID System Installation für spätere Implementation"
+apt-get --force-yes install mdadm
