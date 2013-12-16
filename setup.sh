@@ -23,7 +23,7 @@ apt-get --force-yes install php5-sqlite php5-mysql smbclient curl libcurl3 php5-
 apt-get --force-yes install mysql-server mysql-client
 cd /var/www
 wget http://download.owncloud.org/community/owncloud-${owncloudversion}.tar.bz2
-tar -xjf /var/www/owncloud-${owncloudversion}.tar.bz2
+tar -xjf owncloud-${owncloudversion}.tar.bz2
 
 echo "Samba installeren"
 apt-get --force-yes install samba
